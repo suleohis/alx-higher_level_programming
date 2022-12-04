@@ -4,7 +4,7 @@ def element_at(my_list, idx):
         return None
     length = len(my_list)
 
-    if length > length:
+    if idx > length:
         return None
 
     return my_list[idx]
