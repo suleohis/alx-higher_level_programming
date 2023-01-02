@@ -9,13 +9,14 @@ class Rectangle:
             height (int): height of rectangle
     """
     def __init__(self, width=0, height=0):
-     """initializes
+        """initializes
         Args:
-            height (int): height
-            width (int): width
+            size (int): size
+            postion(tuple): postion
         Returns:
             None
         """
+
         self.width = width
         self.height = height
 
